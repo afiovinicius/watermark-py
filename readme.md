@@ -23,33 +23,36 @@ git clone https://github.com/afiovinicius/watermark-py.git
 
 Certifique-se de ter o Python 3 e o virtualenv instalados em sua máquina. Você pode criar uma máquina virtual com os seguintes comandos:
 
-
+```bash
 cd watermark-py
 python3 -m venv venv
+```
 
 Ative a máquina virtual:
 
 No Linux/Mac:
-
+```bash
 source venv/bin/activate
-
+```
 No Windows:
-
+```bash
 venv\Scripts\activate
-
+```
 ## Instalando Dependências
 
 Certifique-se de que a máquina virtual esteja ativada. Em seguida, instale as dependências do projeto com o seguinte comando:
 
-
+```bash
 pip install -r requirements.txt
+```
 
 ## Rodando o Projeto
 
 Após configurar a máquina virtual e instalar as dependências, você pode rodar o projeto usando:
 
-
+```bash
 python watermark.py
+```
 
 Os arquivos de saída serão gerados na pasta novo-pdf/.
 
