@@ -15,8 +15,9 @@ Este é um projeto simples para adicionar marca d'água a arquivos PDF.
 
 Você pode clonar o projeto usando o seguinte comando no seu terminal:
 
-
+```bash
 git clone https://github.com/afiovinicius/watermark-py.git
+```
 
 ## Configurando a Máquina Virtual com Virtualenv
 
