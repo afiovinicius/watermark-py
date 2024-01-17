@@ -25,18 +25,18 @@ Certifique-se de ter o Python 3 e o virtualenv instalados em sua máquina. Você
 
 ```bash
 cd watermark-py
-python3 -m venv venv
+python3 -m venv .menv
 ```
 
 Ative a máquina virtual:
 
 No Linux/Mac:
 ```bash
-source venv/bin/activate
+source .menv/bin/activate
 ```
 No Windows:
 ```bash
-venv\Scripts\activate
+.menv\Scripts\activate
 ```
 ## Instalando Dependências
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 Após configurar a máquina virtual e instalar as dependências, você pode rodar o projeto usando:
 
 ```bash
-python watermark.py
+python main.py
 ```
 
 Os arquivos de saída serão gerados na pasta novo-pdf/.
