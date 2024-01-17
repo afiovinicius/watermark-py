@@ -1,0 +1,13 @@
+# Arquivos temporários ou gerados durante a execução
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Ambiente virtual
+venv/
+env/
+.menv
